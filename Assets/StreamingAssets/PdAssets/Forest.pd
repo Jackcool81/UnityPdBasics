@@ -3,8 +3,8 @@
 #X obj 23 17 loadbang;
 #X obj 114 160 soundfiler;
 #N canvas 0 22 450 278 (subpatch) 0;
-#X array \$0-sound-L 3.87298e+06 float 2;
-#X coords 0 1 3.87298e+06 -1 200 140 1 0 0;
+#X array \$0-sound-L 3.87298e+006 float 2;
+#X coords 0 1 3.87298e+006 -1 200 140 1 0 0;
 #X restore 594 34 graph;
 #X obj 53 92 i \$0;
 #X floatatom 50 186 15 0 0 0 - - -;
@@ -16,8 +16,8 @@
 #X obj 55 60 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #N canvas 0 22 450 278 (subpatch) 0;
-#X array \$0-sound-R 3.87298e+06 float 2;
-#X coords 0 1 3.87298e+06 -1 200 140 1 0 0;
+#X array \$0-sound-R 3.87298e+006 float 2;
+#X coords 0 1 3.87298e+006 -1 200 140 1 0 0;
 #X restore 385 31 graph;
 #X obj 267 509 tabread4~ \$0-sound-L;
 #X obj 404 508 tabread4~ \$0-sound-R;
@@ -29,8 +29,8 @@
 #X obj 162 187 unpack 0;
 #X obj 382 380 *;
 #X obj 399 348 t b f;
-#X obj 400 313 nbx 5 14 -1e+37 1e+37 0 1 empty empty pitch 0 -8 0 10
--262144 -1 -1 0.35 256;
+#X obj 400 313 nbx 5 14 -1e+037 1e+037 0 1 empty empty pitch 0 -8 0
+10 -262144 -1 -1 0.35 256;
 #X obj 10 214 s sound_length;
 #X obj 353 416 r sound_length;
 #X obj 71 334 s master_speed;
@@ -46,8 +46,8 @@
 #X obj 816 548 *~ 0.5;
 #X obj 820 367 *;
 #X obj 837 335 t b f;
-#X obj 838 300 nbx 5 14 -1e+37 1e+37 0 1 empty empty pitch 0 -8 0 10
--262144 -1 -1 0.13 256;
+#X obj 838 300 nbx 5 14 -1e+037 1e+037 0 1 empty empty pitch 0 -8 0
+10 -262144 -1 -1 0.13 256;
 #X obj 791 403 r sound_length;
 #X obj 737 303 r master_speed;
 #X obj 605 501 nbx 5 14 0 1 0 1 empty empty volume 0 -8 0 10 -262144
