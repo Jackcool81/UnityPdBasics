@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/pixel horror abandoned classroom/Scenes/SampleScene.unity
+- path: Assets/new Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
